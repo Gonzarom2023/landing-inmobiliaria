@@ -1,0 +1,44 @@
+footer {
+  background: $color-secundario;
+  color: $color-white;
+  text-align: center;
+  padding: 6rem 3rem;
+}
+
+.contacto-container {
+  width: 600px;
+  max-width: 100%;
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+  }
+}
+
+
+input,
+textarea {
+  margin-bottom: 1rem;
+  padding: 8px;
+  border: 1px solid $color-background;
+  border-radius: 3px;
+}
+
+.redes-sociales-container {
+  gap: 1.5rem;
+  padding: 3rem 2rem;
+}
+
+.fa-brands {
+  font-size: 2rem;
+  color: $color-primario;
+}
+
+.fa-brands:hover {
+  color: $color-terciario;
+}
+
+.fa-brands:active {
+  color: $color-terciario-dark;
+}

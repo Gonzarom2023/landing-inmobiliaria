@@ -1,0 +1,39 @@
+.mapa-container {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - $size-header);
+  overflow: hidden;
+
+  iframe {
+    width: 100%;
+    height: calc(100vh - $size-header);
+    border: 0;
+  }
+}
+
+.mapa-overlay {
+  @include full-size;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, .4);
+  color: $color-text;
+  font-size: 1rem;
+}
+
+.direccion {
+  background-color: $color-background;
+  padding: 2rem;
+  gap: 1rem;
+
+   h3 {
+    color: $color-primario;
+    text-transform: uppercase;
+  }
+
+   p {
+    margin-bottom: 0;
+  }
+}

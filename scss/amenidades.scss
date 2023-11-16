@@ -1,0 +1,28 @@
+.galeria-container {
+  flex-flow: wrap;
+}
+
+.galeria-img {
+  max-width: 400px;
+  padding: 1rem;
+  margin: 1rem;
+  cursor: pointer;
+  object-fit: cover;
+}
+
+.galeria-overlay {
+  @include full-size;
+
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 2;
+}
+
+.galeria-overlay-img {
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
+}
